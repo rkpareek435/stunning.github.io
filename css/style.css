@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+
+:root{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto bold;
+    background-color: #FFFFF3;
+} 
+.container{
+    width: 100%;
+}
+
+.top{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+/* .logo{
+    width: 20%;
+}
+.account{
+    width: 20%;
+}
+.menu{
+    width: 50%;
+} */
+.logo img{
+    width: 120px;
+    height: 50px;
+}
+.menu ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li{
+    width: 150px;
+    /* border-bottom: 2px solid black; */
+    margin-left: 10px;
+}
+.menu ul li a{
+    margin-left: 80px;
+    text-decoration: none;
+    color: black;
+    font-family: Raleway;
+    /* font-weight: 400; */
+    
+}
+.home a{
+    border-bottom: 2px solid blue;
+    font-weight: bold;
+}
+/* .about{
+    font-weight: 100;
+} */
+/* .blog{
+
+}
+.jobs{
+    
+} */
+.one{
+    padding: 5px;
+}
+.one a:hover{
+
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+    /* padding: 5px; */
+}
+
+.account {
+    width: 200px;
+    text-align: center;
+    color: #6610f1;
+    background-color: #FFD8DB;
+    border-radius: 100px;
+    padding: 20px;
+    font-size: 20px;
+}
+.account:hover{
+    color: blue;
+    font-weight: bold;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.left{
+    font-family: Raleway;
+    font-size: 30px;
+    padding: 10px;
+}
+.left h1 span{
+    font-family: roboto;
+    font-weight: bold;
+}
+.left p{
+    font-family: Roboto;
+    font-weight: 300;
+}
+.btn{
+    display: flex;
+    margin-left: 10px;
+}
+.btn img{
+    margin-left: 10px;
+}
+.btn img:hover{
+    cursor: pointer;
+}
+.newacc{
+    width: 150px;
+    font-size: 15px;
+    font-family: Roboto;
+    background-color: #5243C0;
+    color: #ffff;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 100px;
+}
+.newacc:hover{
+    cursor: pointer;
+}
+.right img{
+    width: 630px;
+    height: 550px;
+}
+.card{
+    width: 500px;
+    margin-top: 20px;
+    text-align: center;
+}
+.card .activediv{
+    background-color: white !important;
+    box-shadow: -2px -2px 2px gray, 2px 2px 2px gray;
+}
+.card1 {
+    background-color: #FAFAFA;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+.indi{
+    width: 20px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #FFD8DB;
+}
+
+.orange{
+    background-color: #FD6534;
+}
+.blue{
+    background-color: #9ED095;
+}
+.red{
+    background-color: #FFE2A0;
+}
+.active{
+    color: blue;
+}
+.active:hover{
+    color: #6610f1;
+}
+
+.activediv{
+    box-shadow: 2px 2px 2px gray;
+}
+.card1:hover{
+    box-shadow: 4px 4px 2px gray;
+    box-shadow: -2px -2px 2px gray, 2px 2px 2px gray;
+}
